@@ -16,7 +16,7 @@ python main.py
 1. **GeneratorHelper**: Generates combinations of activators and repressors and checks for monotonicity in Boolean functions.
 2. **MonotonicFunctionGenerator**: Utilizes `GeneratorHelper` to generate all possible Boolean functions and filter out those that are monotonic.
 
-## Key MethodsM
+## Key Methods
 
 - `generate_combinations_dict_list(n)`: Generates combinations of activators and repressors.
 - `is_monotonic(func, states, n)`: Checks if a Boolean function is monotonic.
